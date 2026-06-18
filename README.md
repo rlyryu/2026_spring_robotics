@@ -5,7 +5,7 @@
 | 항목 | 내용 |
 | --- | --- |
 | 팀명 | Team컴공 |
-| 팀원 | 이경선(2271107), 류다현(2376087) |
+| 팀원 | 이경선(2271107[@LeeKyoungSun](https://github.com/LeeKyoungSun)), 류다현(2376087[@rlyryu](https://github.com/rlyryu)) |
 | 프로젝트 주제 | LLM + Vision을 활용한 상황 인지 기반 자율 반려동물 케어 로봇 시스템 |
 
 ## 프로젝트 설명
@@ -276,7 +276,19 @@ python3 script/llm/test_llm_sequence_generator.py
 
 ## 참고 자료
 
-추가 예정
+**Package & Documentation**
+- LLM 기반 ROS2 control framework: https://github.com/Auromix/ROS-LLM/tree/ros2-humble
+- EdgeYOLO + ROS2 package: https://github.com/fateshelled/EdgeYOLO-ROS
+- Vav2 documentation: https://docs.nav2.org/
+- E2E pick & place manipulation package (optional): https://github.com/ros-industrial/easy_manipulation_deployment
+- LLM API-ROS2 interface extension: https://github.com/fujitatomoya/ros2ai
+
+
+**실제 프로젝트 reference**
+- ROS2 Humble + Gazebo Fortress + Nav2 example: https://github.com/art-e-fact/navigation2_ignition_gazebo_example
+- ROS2 기반 LLM + YOLO → turtlebot control project: https://storyofkwan.tistory.com/category/ROS2%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/LLM%2BROS2%2BGAZEBO%20Control
+- How to Use YOLOv8 with ROS2: https://www.youtube.com/watch?v=XqibXP4lwgA
+- Home robot simulation tutorial: https://blog.kaia.ai/gazebo-3d-simulation-tutorial/
 
 ## YouTube 링크
 
